@@ -1,0 +1,98 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.primary-video {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    background-repeat: no-repeat;
+    object-fit:cover;
+}
+
+.secondary-video {
+    z-index: 10;
+    position: absolute;
+    max-width: 15%;
+    width: 50%;
+    margin: 16px;
+    border-radius: 6px;
+}
+
+.controls{
+    z-index: 5;
+    position: absolute;
+    top: 93%;
+    left: 48%;
+    
+}
+
+.controls #toggle-cam{
+    display: inline-block;
+    border: 0;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.350);
+    border-radius: 10px;
+}
+
+.controls #toggle-mic{
+    display: inline-block;
+    border: 0;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.350);
+    border-radius: 10px;
+
+}
+
+.controls #toggle-end{
+    display: inline-block;
+    border: 0;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.350);
+    border-radius: 10px;
+}
+
+.controls #toggle-cam:hover{
+    background-color: rgba(255, 255, 255, 0.650);
+}
+
+.controls #toggle-cam:active{
+    background-color: rgba(255, 255, 255, 0.950);
+}
+
+.controls #toggle-mic:hover{
+    background-color: rgba(255, 255, 255, 0.650);
+}
+
+.controls #toggle-mic:active{
+    background-color: rgba(255, 255, 255, 0.950);
+}
+
+.controls #toggle-end:hover{
+    background-color: rgba(255, 255, 255, 0.650);
+}
+
+.controls #toggle-end:active{
+    background-color: rgba(255, 255, 255, 0.950);
+}
+
+.controls #toggle-cam img{
+    max-width: 25px;
+    height: 25px;
+    border: 0;
+}
+
+.controls #toggle-mic img{
+    max-width: 25px;
+    height: 25px;
+}
+
+.controls #toggle-end img{
+    max-width: 25px;
+    height: 25px;
+}

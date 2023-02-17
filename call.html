@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./style.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <script src="https://unpkg.com/peerjs@1.3.2/dist/peerjs.min.js"></script>
+
+        <video  class="secondary-video" autoplay id="remote-video" ondblclick="changeltor()"></video>
+        <video class="primary-video" autoplay id="local-video" ondblclick="changertol()"></video>
+        <div class="controls" id="butcontrols">
+            
+            <button hidden class="buttons" id="toggle-cam" type="button"><img src="./img/video-camera-on.png" alt="cam" id="cambutimg"></button>
+            <button hidden class="buttons" id="toggle-mic" type="button"><img src="./img/mic-on.png" alt="mic" id="micbutimg"></button>
+            <button hidden class="buttons" id="toggle-end" type="button" onclick="closeCall()"><img src="./img/phone-call-end.png" alt="end" id="endbutimg"></button>
+        </div>
+        
+        <script src="./call.js"></script>
+
+    </body>
+</html>
